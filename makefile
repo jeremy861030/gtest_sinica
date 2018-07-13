@@ -1,3 +1,3 @@
-CFLAG=-std=c++11 -lgtest -lpthread
+CFLAG = -std =c++11 -lgtest -lpthread
 test.exe:test.cpp
- g++ $< -o $@ ${CFLAG}
+	g++ $< -o $@ ${CFLAG}
