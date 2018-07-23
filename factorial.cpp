@@ -1,5 +1,6 @@
 #include <iostream>
 #include <gtest/gtest.h>
+#include <assert.h>
 
 using namespace std;
 
@@ -17,6 +18,7 @@ TEST(test_factorial, test){
     EXPECT_EQ(40320, factorial(8));
     EXPECT_EQ(362880, factorial(9));
     EXPECT_EQ(3628800, factorial(10));
+    // assert(factorial(5)!=120);
 }
 
 int main(int argc, char **argv){
