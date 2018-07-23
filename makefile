@@ -1,3 +1,3 @@
 CFLAG=-std=c++11 -lgtest -lpthread
-test.exe:factorial.cpp
+test.exe:sort_test.cpp
 	g++ $< -o $@ ${CFLAG}
